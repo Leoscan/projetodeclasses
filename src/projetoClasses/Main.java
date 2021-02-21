@@ -17,7 +17,7 @@ public class Main {
 	System.out.println(es);
 	
 	//só consegui fazer remover por index do array
-	es.destroiProduto(2); 
+	es.destroiProduto(0); 
 	System.out.println(es);
 	
 	
@@ -45,7 +45,7 @@ public class Main {
 
 	
 	//remove algum produto do estoque (quantidade, index produto)
-	es.RemoveEstoque(3, 0);
+	es.RemoveEstoque(2, 0);
 	System.out.println(es);
 	
 	

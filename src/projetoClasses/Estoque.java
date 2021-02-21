@@ -14,7 +14,8 @@ public class Estoque {
 	}
 	
 	public Produto destroiProduto(int codProd) {		
-		return lprod.remove(codProd);
+		quant.remove(codProd);
+		return lprod.remove(codProd);		
 	
 	}
 	public Integer RemoveEstoque(int quantidade, int indexProd) { 
