@@ -29,6 +29,8 @@ public class Comprador extends Pessoa {
 		Fidelidade = fidelidade;
 	}
 	
+	
+	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();

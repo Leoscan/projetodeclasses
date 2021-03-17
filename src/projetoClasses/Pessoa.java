@@ -1,6 +1,6 @@
 package projetoClasses;
 
-public class Pessoa {
+public abstract class Pessoa {
 	private String nome;
 	private int cpf;
 	private int telefone;
@@ -15,9 +15,6 @@ public class Pessoa {
 	public Pessoa() {
 		
 	}
-	
-	
-	
 	public String getNome() {
 		return nome;
 	}

@@ -6,9 +6,6 @@ public class Compra {
 	private float valor;
 	private Funcionario Funcionario;
 	private Comprador Comprador;
-	//private Estoque Estoque
-	
-	
 	
 	
 	public String getDataDaCompra() {
@@ -35,6 +32,25 @@ public class Compra {
 	public void setComprador(Comprador comprador) {
 		Comprador = comprador;
 	}
+	
+	
+	
+	public boolean RealizarVenda(Comprador com, Funcionario fn, Estoque es, int indexProd ,int quantidade ) {
+		if(es.RemoveEstoque(quantidade, indexProd)) {
+			Compra com1 = new Compra();
+			com1.setDataDaCompra("10-02-2021");
+			com1.setValor(StaCalculaValorProduto.calcValorProd(es.getProduto(indexProd), quantidade));
+			com1.setComprador(com);
+			com1.setFuncionario(fn);
+		
+			NotaFiscal nf1 = new NotaFiscal();
+			nf1.setIdentificador(1);
+			nf1.GerarNota(com1);
+			return true;
+		} else return false;
+		
+	}
+	
 	
 	
 	@Override

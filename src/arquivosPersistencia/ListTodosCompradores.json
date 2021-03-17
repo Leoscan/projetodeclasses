@@ -1,0 +1,9 @@
+[
+	{"NCadastroC":80,"Fidelidade":true,"nome":"Leonardo","cpf":123123,"telefone":707070},
+	{"NCadastroC":81,"Fidelidade":false,"nome":"Rodrigo","cpf":777777,"telefone":9876512},
+	{"NCadastroC":82,"Fidelidade":false,"nome":"Vinicius","cpf":132124,"telefone":657567},
+	{"NCadastroC":83,"Fidelidade":true,"nome":"Kleber","cpf":421312,"telefone":3123123},
+	{"NCadastroC":84,"Fidelidade":false,"nome":"Osvaldo","cpf":433443,"telefone":432432},
+	{"NCadastroC":85,"Fidelidade":true,"nome":"Marlene","cpf":123123,"telefone":2131231},
+	{"NCadastroC":86,"Fidelidade":true,"nome":"Emanuel","cpf":312412,"telefone":421312}
+]

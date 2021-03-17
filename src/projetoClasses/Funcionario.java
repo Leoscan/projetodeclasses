@@ -1,9 +1,9 @@
 package projetoClasses;
 
-public class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa implements IAutenticavel {
 	private int NCadastroF;
 	private String DataAdmissao;
-	
+	final int senha = 321;
 	
 	public Funcionario(String nome, int cpf, int telefone, int NCadastroF, String DataAdmissao) {
 		super(nome, cpf, telefone);
@@ -12,8 +12,6 @@ public class Funcionario extends Pessoa {
 	}
 	public Funcionario() {
 	}
-	
-	
 	
 	public int getNCadastroF() {
 		return NCadastroF;
@@ -26,6 +24,14 @@ public class Funcionario extends Pessoa {
 	}
 	public void setDataAdmissao(String dataAdmissao) {
 		DataAdmissao = dataAdmissao;
+	}		
+	
+	public boolean login(int PSenha) {
+		if(PSenha == senha) {
+		return true;
+		} else {
+			return false;
+		}
 	}
 	
 	@Override
