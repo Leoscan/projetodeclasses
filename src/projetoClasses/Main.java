@@ -32,6 +32,16 @@ public class Main {
 	}
 	
 	
+	List<Gerente> listGer = XMLManip.LerXMLGerente();
+	System.out.println("-----------------------------------------");
+	
+	for (Iterator iterator = listGer.iterator(); iterator.hasNext();) {
+		Gerente gerente = (Gerente) iterator.next();
+		System.out.println(gerente.toString());
+	}
+	System.out.println("-----------------------------------------");
+	
+	
 	//Parte CSV --- Listar os funcionarios da empresa
 	CSVManip.lerCSV();
 	

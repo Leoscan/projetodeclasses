@@ -6,7 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Leo/Documents/eclipse/Projeto/src/gson-2.8.6.jar"/>
-	<classpathentry kind="lib" path="/Users/Leo/Documents/eclipse/Projeto/src/xstream-1.4.15.jar"/>
+	<classpathentry kind="lib" path="/Users/Leo/Documents/eclipse/Projeto/lib/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Leo/Documents/eclipse/Projeto/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="/Users/Leo/Documents/eclipse/Projeto/lib/xstream-1.4.15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

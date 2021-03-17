@@ -10,6 +10,9 @@ public class Gerente extends Pessoa implements IAutenticavel{
 		setNCadastroG(nCadastroG);
 		setDataAdmissao(dataAdmissao);
 	}
+	public Gerente() {
+		
+	}
 	
 	public int getNCadastroG() {
 		return NCadastroG;
